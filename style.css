@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+    width: 100vw;
+    position: fixed
+}
+
+.session1{
+    background-color: red;
+    /* height: 100vh; */
+    height: calc(var(--vh, 1vh)*100);
+}
+
+.session2{
+    background-color: blue;
+    /* height: 100vh; */
+    height: calc(var(--vh, 1vh)*100);
+}
+
+.session3{
+    background-color: purple;
+    /* height: 100vh; */
+    height: calc(var(--vh, 1vh)*100);
+}
+
+.session4{
+    background-color: black;
+    /* height: 100vh; */
+    height: calc(var(--vh, 1vh)*100);
+}
+
+.session{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    transition: transform 1s ease;
+}
+
+.transition-group{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+@keyframes trans{
+    0% {}
+}
